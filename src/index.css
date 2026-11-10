@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ammaar: #f8f4f0;       /* Cream */
+  --color-ammaar-1: #34a0a4;     /* Teal / Turquoise */
+  --color-ammaar-2: #1a1a1a;     /* Almost Black */
+  --color-ammaar-3: #555555;     /* Dark Gray */
+  --color-ammaar-4: #0f7c80;     /* Dark Teal */
+  --color-ammaar-5: #f4a340;     /* Amber / Orange */
+  --spacing-ammaar: 50px;
+  --radius-ammaar: 30px;
+}
+
+body {
+  background-color: var(--color-ammaar);
+  color: var(--color-ammaar-2);
+  margin: 0;
+  padding: 1rem;
+}
